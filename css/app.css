@@ -6,3 +6,30 @@ body {
     background-color: #99c84a;
     color: white;
 }
+
+#menu-container {
+    background-color: #f7f7f9;
+}
+.btn.btn-platzi{
+    background-color: #99c84a;
+    color: white
+}
+.btn.btn-platzi:hover{
+    background-color: #8ab542;
+}
+input.form-control:focus {
+    border-color: #99c84a;
+}
+
+.nav-link {
+	color: #D5D5D7;
+}
+
+.nav-link:hover {
+	color: #464a4c;
+}
+
+ul.nav li.nav-item a.active,
+ul.nav li.nav-item a.active:hover{
+	color: black;
+}

@@ -10,14 +10,56 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
+    <!-- Header -->
     <header id="header-container">
         <!-- container es un div que se adapta a distintos tamaños de dispositivos, es un basico componente de bootstrap-->
         <!-- clase container esta clase crea un div centrado alineado con padding a la izquierda y derecha -->
         <!-- clase container-fluid esta clase cre un div que ocupa todo el ancho de la pagina -->
         <div class="container">
-            <h1>Platzishop</h1>
+            <div class="row d-flex align-items-center justiy-content-between">
+                <div class="col-3">
+                    <h1>Platzishop</h1> 
+                </div>
+                <div class="col-3 text-right">
+                    <a href="">login</a>
+                </div>
+            </div>
         </div>
     </header>
+    <!-- /Header -->
+
+    <!-- Menu -->
+    <nav id="menu-container" class="navbar navbar-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-2 col-md-4 offset-md-0">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Carrito</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 offset-md-2">
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="¿Encontraste lo que buscabas?">
+                            <span class="input-group-btn">
+                                <button class="btn btn-platzi" type="button">Buscar</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- /Menu -->
+    
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
