@@ -1,3 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.columna{
+    border: 1px solid red;
+}
+.row{
+    border: 1px solid gray;
+}
