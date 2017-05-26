@@ -7,6 +7,10 @@ body {
     color: white;
 }
 
+#header-container .login,
+#header-container .navbar-toggler{
+    color: white;
+}
 #menu-container {
     background-color: #f7f7f9;
 }
@@ -20,16 +24,9 @@ body {
 input.form-control:focus {
     border-color: #99c84a;
 }
-
-.nav-link {
-	color: #D5D5D7;
-}
-
-.nav-link:hover {
-	color: #464a4c;
-}
-
-ul.nav li.nav-item a.active,
-ul.nav li.nav-item a.active:hover{
-	color: black;
+#search-bar{
+    padding-top: 0;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
