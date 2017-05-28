@@ -2,7 +2,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#header-container {
+#header-container,
+#info-container {
     background-color: #99c84a;
     color: white;
 }
@@ -36,4 +37,13 @@ input.form-control:focus {
 
 #carousel-productos img{
     margin: 0 auto;
+}
+
+#info-container h4{
+    padding: 1em 0;
+}
+
+#info-container img{
+    margin: 0 auto; /*centra la imagen*/
+    margin-top: 2em;
 }
