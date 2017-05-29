@@ -64,7 +64,7 @@ input.form-control:focus {
 #footer-container a.nav-link:hover{
     margin-left: 1em;
 }
-/* esta mediqueri es para centrar desde small hasta extra small */
+/* esta mediqueri es para poner un margen bottom desde small hasta extra small */
 /* el resto de tamaños quedan hacia la izquierda con la regla text-md-left */
 @media (max-width: 768px){
     #footer-container [class*="col-"]{
@@ -92,4 +92,21 @@ input.form-control:focus {
 
 #breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
     content: '>';
+}
+#productos-container {
+    margin-bottom: 1em;
+}
+#productos-container .list-group-item-action.active {
+    background-color: #99c84a;
+    border-color: #99c84a;
+}
+
+#productos-container .list-group+.list-group {
+    margin-top: 1em;
+}
+
+@media (max-width: 768px){
+    #productos-container .filtros-toggle {
+        margin-bottom: 1em;
+    }
 }
