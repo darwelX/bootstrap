@@ -19,3 +19,14 @@ $form.submit(function(eve){
     el.addClass('form-control-feedback');
     $formGroup.append(el);
 });
+
+function mostrarModal(){
+    $('#btnNoregistrar').click( function(eve){
+        localStorage.noMostrarModal = true;
+    });
+    const mostrar = JSON.parse(localStorage.noMostrarModal != 'undefined'? localStorage.noMostrarModal:"false");
+    if(!mostrar){
+        // {backdrop: 'static', keyboard: false} evita que al realizar  click fuera de la ventana esta no se cierre
+        $('#modal-oferta').modal({backdrop: 'static', keyboard: false});
+    }
+}
