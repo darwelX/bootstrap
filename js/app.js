@@ -30,3 +30,27 @@ function mostrarModal(){
         $('#modal-oferta').modal({backdrop: 'static', keyboard: false});
     }
 }
+var mediaquery = window.matchMedia("(max-width: 576px)");
+
+function handleOrientationChange(mediaquery) {
+    if (mediaquery.matches){
+        $('#filtros-container').collapse('hide')
+    }else{
+        $('#filtros-container').collapse('show');
+    }
+}
+handleOrientationChange(mediaquery);
+/* esta al tanto de los cambios de tamaños de la pantalla y ejecuta el codigo de la funcion cada vez */
+mediaquery.addListener(handleOrientationChange);
+
+const $filtrosToggle = $('#filtrosToggle');
+$filtrosToggle.click(function(eve){
+    eve.preventDefault();
+    const $i = $filtrosToggle.find('i.fa');
+    const isDown =$i.hasClass('fa-chevron-down');
+    if(isDown){
+        $i.removeClass('fa-chevron-down').addClass('fa-chevron-up');
+    }else{
+        $i.removeClass('fa-chevron-up').addClass('fa-chevron-down');
+    }
+});
