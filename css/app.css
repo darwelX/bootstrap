@@ -47,3 +47,27 @@ input.form-control:focus {
     margin: 0 auto; /*centra la imagen*/
     margin-top: 2em;
 }
+
+#footer-container {
+    background-color: #1c3643;
+    color: white;
+    padding: 3em 0;
+}
+
+#footer-container h4{
+    font-size: 16px;
+}
+#footer-container .nav-link {
+    color: white;
+}
+
+#footer-container a.nav-link:hover{
+    margin-left: 1em;
+}
+/* esta mediqueri es para centrar desde small hasta extra small */
+/* el resto de tamaños quedan hacia la izquierda con la regla text-md-left */
+@media (max-width: 768px){
+    #footer-container [class*="col-"]{
+        margin-bottom: 2em;
+    }
+}
