@@ -71,3 +71,25 @@ input.form-control:focus {
         margin-bottom: 2em;
     }
 }
+
+@media (min-width: 768px) {
+    #breadcrumbs-container .breadcrumb{
+        padding-left: 1.5em;
+    }
+}
+
+#breadcrumbs-container .breadcrumb{
+    background-color: white;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item {
+    color: #1c3643;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item.active {
+    color: #95a5a6;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    content: '>';
+}
