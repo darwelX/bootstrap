@@ -106,7 +106,21 @@ input.form-control:focus {
 }
 
 @media (max-width: 768px){
-    #productos-container .filtros-toggle {
-        margin-bottom: 1em;
+
+    #productos-container .card-producto {
+        margin-top: 1em;
     }
+}
+
+#productos-container .card-producto {
+    margin-bottom: 1em;
+}
+
+#paginator-container .page-item.active .page-link {
+    background-color: #99c84a;
+    border-color: #99c84a;
+}
+
+#paginator-container .page-item:not(.active):not(.disabled) .page-link{
+    color: #99c84a;
 }
