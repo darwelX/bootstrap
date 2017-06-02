@@ -1,0 +1,7 @@
+﻿ DESCARGAR DEL REPOSITORIO  DE GITHUB QUE SE ENCUENTRA EN LA PAGINA DE BOOTSTRAP
+ IR HASTA EL DIRECTORIO DEL REPOSITORIO Y EJECUTAR npm install
+ para personalizarlo ir hasta el directorio scss el archivo _variable.scss
+ para generar los css a partir de .scss se requiere instalar grunt: npm install -g grunt
+ para generar los archivos css de bootstrap personalizados ejecute: grunt dist
+ en el directorio dist dentro de la carpeta de los fuentes se encuentran los fuentes generados por grunt
+ 
