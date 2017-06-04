@@ -143,3 +143,57 @@ input.form-control:focus {
 .card .card-block h4 {
     padding-top: 1em;
 }
+#precio-iva{
+    background-color:#4AD21E;
+    color: white;
+    font-size: 2em;
+}
+span#precio-iva small.font-italic {
+    font-size: 35%;
+    font-weight: 400;
+}
+#plus{
+    color: #8ab542;
+}
+#minus{
+    color: #8ab542;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.42;
+    border-radius: 15px;    
+    background-color: #8ab542;
+    color:white;
+}
+#caracteristicas li{
+    margin-right: 1em;
+}
+#caracteristicas li a {
+    color: white;
+}
+#caracteristicas {
+    padding: 2em 0;
+    padding-left: 1em;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif !important;
+    color: #232323;
+    font-weight: normal;
+}
+
+#socials {
+    padding: 2em 0;
+    padding-left: 1em;
+}
+
+#socials li{
+    margin: 1em;
+}
+
+#socials li a {
+    color: #9C9C9B;
+}

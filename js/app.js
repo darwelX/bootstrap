@@ -54,3 +54,12 @@ $filtrosToggle.click(function(eve){
         $i.removeClass('fa-chevron-up').addClass('fa-chevron-down');
     }
 });
+
+
+$('#tooltip1 , #tooltip2, #tooltip3, #tooltip4, #tooltip5').tooltip();
+
+$('[data-toggle="tooltip"]').hover(function(){
+    $('.tooltip-inner').css('background-color', '#8ab542');
+    $('.tooltip-inner').css('color', 'white');
+    $('.tooltip-arrow').css('color', '#00a8c4!important');
+});
