@@ -197,3 +197,9 @@ span#precio-iva small.font-italic {
 #socials li a {
     color: #9C9C9B;
 }
+
+@media (max-width: 768px){
+    a#addCar {
+        margin-top: 1em;
+    }
+}
