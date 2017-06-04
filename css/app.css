@@ -17,7 +17,7 @@ body {
 }
 .btn.btn-platzi{
     background-color: #99c84a;
-    color: white
+    color: white;
 }
 .btn.btn-platzi:hover{
     background-color: #8ab542;
@@ -131,4 +131,15 @@ input.form-control:focus {
 
 #paginator-container .page-item:not(.active):not(.disabled) .page-link{
     color: #99c84a;
+}
+.card .card-block div span{
+    background-color: #4AD21E;
+    color: white;  
+    font-size: 0.9em; 
+}
+.card .card-block div span#novedad{
+    background-color: #5591DC;
+}
+.card .card-block h4 {
+    padding-top: 1em;
 }
