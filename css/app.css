@@ -84,6 +84,7 @@ input.form-control:focus {
     #breadcrumbs-container .breadcrumb{
         padding-left: 1.5em;
     }
+
 }
 
 #breadcrumbs-container .breadcrumb{
@@ -202,4 +203,22 @@ span#precio-iva small.font-italic {
     a#addCar {
         margin-top: 1em;
     }
+}
+
+#carouselExampleIndicators .carousel-inner{
+    width: 97px !important;
+    border: 1px solid #e0e0e0;
+    float: none;
+    margin: 0 auto;
+}
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next {
+    background-color: black;
+    width: 5%;
+    height: 25%;
+    position: absolute;
+    top: 45%;
+}
+#carouselExampleIndicators .carousel-control-next-icon {
+    color: red;
 }
