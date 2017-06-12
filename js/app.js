@@ -62,3 +62,22 @@ $('[data-toggle="tooltip"]').hover(function(){
     $('.tooltip-inner').css('color', 'white');
     $('.tooltip-arrow').css('color', '#00a8c4!important');
 });
+
+const $minus = $('#minus');
+$minus.click(function(eve){
+    eve.preventDefault();
+    var $cantidad = $('#cantidad');
+    if($cantidad.val() > 0){
+        var valor = $cantidad.val()
+        valor--;
+        $cantidad.val(valor);
+    }
+});
+const $plus = $('#plus');
+$plus.click(function(eve){
+    eve.preventDefault();
+    var $cantidad = $('#cantidad');
+    var valor = $cantidad.val();
+    valor++;
+    $cantidad.val(valor);
+});
